@@ -1,0 +1,27 @@
+.product{
+    display:flex;
+    border-bottom: 1px solid rgb(77, 77, 77);
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    margin-left:40px;
+}
+.product-name{
+    color:rgb(128, 43, 34);
+    font-weight:400;
+    margin-left:20px;
+
+}
+#pd-name{
+    color:rgb(24, 58, 253);
+    font-weight:400;
+    margin-left:20px;
+}
+.main-button{
+    background-color: goldenrod;
+    width:150px;
+    height:30px;
+    border: 1px solid rgb(126, 108, 29);
+    border-radius:3px;
+    margin-left:20px;
+}
