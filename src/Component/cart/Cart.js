@@ -21,7 +21,6 @@ const Cart = (props) => {
 
     const numberFix = num => {
        return  Math.round(num);
-        
     }
     return (
         <div>
@@ -30,7 +29,7 @@ const Cart = (props) => {
             <p>Product price :{numberFix(total)}</p>
             <p>Shipping: ${shipping}</p>
             <p><small>Tax + vat: {numberFix(tax)}</small></p>
-            <p>Total Price: ${total + shipping + tax} </p>
+            <p>Total Price: ${numberFix(total + shipping + tax)} </p>
         </div>
     );
 };
